@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stressbewältigung - Materialien und Wortschatz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(to right, #dbeafe, #fef3c7);
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .accordion {
+            background-color: #4f46e5;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .panel {
+            display: none;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .panel img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        function togglePanel(id) {
+            const panel = document.getElementById(id);
+            panel.style.display = panel.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+<h1>kein Stress!</h1>
+
+<div class="section">
+    <button class="accordion" onclick="togglePanel('zoomPanel')">📹 An Zoom-Meeting teilnehmen</button>
+    <div class="panel" id="zoomPanel">
+        <p><a  href="https://us04web.zoom.us/j/9723757377?pwd=dFhZGyMeiuCrRDZzEzVY7v9OA1chi1.1"  target="_blank">Jetzt
+            beitreten</a></p>
+        <p><strong>Meeting-ID:</strong> 972 375 7377</p>
+        <p><strong>Kenncode:</strong> 123456</p>
+    </div>
+</div>
+
+<div class="section">
+    <button class="accordion" onclick="togglePanel('materialPanel')">📚 MATERIALIEN</button>
+    <div class="panel" id="materialPanel">
+        <ul>
+            <li><strong>Über den Stress sprechen (B2 Übungen)</strong> <a
+                    href="https://learngerman.dw.com/de/tipps-und-ratschläge/l-38466970" target="_blank">Tipps und
+                Ratschläge (DW)</a>
+            </li>
+            <li><strong>Fakten zum Thema Stress (C1 Übung)</strong> <a
+                    href="https://www.schubert-verlag.de/aufgaben/uebungen_c1/c1_wortschatz3.htm" target="_blank">Schubert
+                Verlag Übungen</a>
+            </li>
+            <li><strong>Die Ursprünge von Stress: Geschichte und Auslöser</strong> <a
+                    href="https://www.youtube.com/watch?v=JT4jjvzNcso" target="_blank">YouTube Video</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <button class="accordion" onclick="togglePanel('wortschatzPanel')">📖 Wortschatz</button>
+    <div class="panel" id="wortschatzPanel">
+        <h2>📖 Wortschatz</h2>
+        <h3>🔹 Wortschatz & Redewendungen zum Thema Stress</h3>
+
+        <h4>⚡ Allgemeine Begriffe</h4>
+        <ul>
+            <li>der <strong>Druck</strong> (unter Druck stehen)</li>
+            <li>die <strong>Belastung</strong> (körperliche oder psychische)</li>
+            <li>der <strong>Burnout</strong> (komplette Erschöpfung)</li>
+            <li>die <strong>Überforderung</strong> (zu viele Anforderungen)</li>
+            <li>die <strong>Reizüberflutung</strong> (zu viele Sinneseindrücke auf einmal)</li>
+            <li>die <strong>Work-Life-Balance</strong> (Gleichgewicht zwischen Arbeit und Privatleben)</li>
+            <li>die <strong>Stressbewältigung</strong> (Strategien gegen Stress)</li>
+            <li>das <strong>Stresserlebnis</strong> (eine stressige Situation)</li>
+            <li>die <strong>Entspannungstechniken</strong> (Methoden, um Stress zu reduzieren)</li>
+        </ul>
+
+        <h4>🧠 Stressarten und Ursachen</h4>
+        <ul>
+            <li>der <strong>Zeitdruck</strong> (zu wenig Zeit für zu viele Aufgaben)</li>
+            <li>die <strong>Leistungsanforderungen</strong> (hohe Erwartungen an sich selbst oder durch andere)</li>
+            <li>die <strong>Versagensangst</strong> (Angst, Fehler zu machen)</li>
+            <li>die <strong>mentale Erschöpfung</strong> (geistige Überlastung)</li>
+            <li>der <strong>soziale Stress</strong> (Druck durch zwischenmenschliche Beziehungen)</li>
+            <li>der <strong>Berufsstress</strong> (Stress am Arbeitsplatz)</li>
+            <li>der <strong>Freizeitstress</strong> (zu viele Verpflichtungen in der Freizeit)</li>
+            <li>die <strong>ständige Erreichbarkeit</strong> (immer auf Nachrichten oder Anrufe reagieren müssen)</li>
+        </ul>
+
+        <h4>🌿 Stress abbauen & entspannen</h4>
+        <ul>
+            <li>sich eine <strong>Auszeit gönnen</strong> (eine Pause machen)</li>
+            <li>sich <strong>abgrenzen</strong> (Nein sagen lernen)</li>
+            <li><strong>Prioritäten setzen</strong> (das Wichtige zuerst erledigen)</li>
+            <li><strong>tief durchatmen</strong> (bewusst atmen, um sich zu beruhigen)</li>
+            <li>sich eine <strong>Pause nehmen</strong> (Ruhephasen einlegen)</li>
+            <li><strong>runterkommen</strong> (sich beruhigen)</li>
+            <li><strong>abschalten</strong> (sich von Stressfaktoren lösen)</li>
+            <li><strong>Stresshormone abbauen</strong> (durch Sport oder Entspannungstechniken)</li>
+            <li>den <strong>Alltagsstress hinter sich lassen</strong> (nach der Arbeit entspannen)</li>
+        </ul>
+
+        <h4>💡 Redewendungen</h4>
+        <ul>
+            <li><strong>Jemandem steht der Stress ins Gesicht geschrieben</strong> (man sieht, dass jemand gestresst
+                ist)
+            </li>
+            <li><strong>Ich bin total durch den Wind</strong> (völlig überfordert und verwirrt sein)</li>
+            <li><strong>Das schlägt mir auf den Magen</strong> (Stress hat körperliche Auswirkungen)</li>
+            <li><strong>Ich brauche dringend eine Verschnaufpause</strong> (eine kurze Pause zum Durchatmen)</li>
+            <li><strong>Ich bin am Limit</strong> (ich kann nicht mehr)</li>
+            <li><strong>Mir wächst alles über den Kopf</strong> (zu viele Aufgaben und kein Überblick mehr)</li>
+        </ul>
+    </div>
+</div>
+<div class="section">
+    <button class="accordion" onclick="togglePanel('diskussionPanel')">💬 Diskussionsaufgaben für unseren Sprachklub am 08.03</button>
+    <div class="panel" id="diskussionPanel">
+        <div class="section">
+            <button class="accordion" onclick="togglePanel('runde1')">🧠 Runde 1 (15 min) - Thesen zum Thema Stress</button>
+            <div class="panel" id="runde1">
+                <p>Welche Aussage ist eurer Meinung nach richtig, welche falsch? Warum?</p>
+                <img src="image.png" alt="Quiz zum Thema Stress">
+                <ul>
+                    <li><strong>Stress ist ein lebenswichtiger Vorgang zur Gefahrenabwehr.</strong></li>
+                    <li><strong>Stress hängt immer von der äußeren Situation ab.</strong></li>
+                    <li><strong>Das Phänomen Stress kam mit der modernen Industriegesellschaft.</strong></li>
+                    <li><strong>Frauen empfinden häufiger Stress als Männer.</strong></li>
+                    <li><strong>Das beste Mittel gegen Stress ist Nichtstun.</strong></li>
+                    <li><strong>Auch Kinder und sogar Babys können Stress empfinden.</strong></li>
+                    <li><strong>Die Möglichkeit der Selbstbestimmung bei der Arbeit spielt für das Stressempfinden eine große Rolle.</strong></li>
+                    <li><strong>Chefs/Vorgesetzte leiden viel mehr unter Stress als andere Mitarbeiter.</strong></li>
+                    <li><strong>Dauerstress äußert sich unter anderem in Konzentrationsschwäche, Vergesslichkeit und Unzufriedenheit.</strong></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <button class="accordion" onclick="togglePanel('runde2')">💡 Runde 2 (12 min) - Persönliche Fragen</button>
+            <div class="panel" id="runde2">
+                <img src="image (1).png" alt="Persönliche Fragen zum Stress">
+                <ul>
+                    <li><strong>Was bedeutet Stress für dich persönlich? Ist er immer negativ?</strong></li>
+                    <li><strong>Welche Situationen verursachen bei dir am meisten Stress?</strong></li>
+                    <li><strong>Welche körperlichen und mentalen Symptome kann Stress auslösen?</strong></li>
+                    <li><strong>Glaubst du, dass manche Menschen stressresistenter sind als andere? Warum?</strong></li>
+                    <li><strong>Kann Stress auch positiv sein? Wann?</strong></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <button class="accordion" onclick="togglePanel('runde3')">📊 Runde 3 (15 min) - Was stresst euch?</button>
+            <div class="panel" id="runde3">
+                <p>Erstellt eine Reihenfolge der drei Situationen, in denen ihr euch am meisten und am wenigsten gestresst fühlt. Begründet eure Auswahl.</p>
+                <img src="image (2).png" alt="Stresssituationen">
+                <h4>Situationen:</h4>
+                <ul>
+                    <li>Termindruck</li>
+                    <li>unerfreuliche Nachrichten</li>
+                    <li>neue Aufgaben</li>
+                    <li>beim Schlafen gestört werden</li>
+                    <li>im Stau stehen</li>
+                    <li>auf den verspäteten Zug warten</li>
+                    <li>Prüfungen</li>
+                    <li>Gespräche mit Vorgesetzten/Lehren o. ä.</li>
+                    <li>Ärger mit dem Lebenspartner</li>
+                    <li>Ärger mit Kollegen/Kommilitonen</li>
+                    <li>schlecht funktionierende Geräte (Computer/Fernseher usw.)</li>
+                    <li>im Supermarkt in einer langen Schlange stehen</li>
+                    <li>etwas tun müssen, was man nicht gut kann</li>
+                    <li>Störungen bei der Arbeit/beim Lernen</li>
+                </ul>
+                <h4>Am meisten Stress:</h4>
+                <ol>
+                    <li>.....</li>
+                    <li>.....</li>
+                    <li>.....</li>
+                </ol>
+                <h4>Am wenigsten Stress:</h4>
+                <ol>
+                    <li>.....</li>
+                    <li>.....</li>
+                    <li>.....</li>
+                </ol>
+            </div>
+        </div>
+        <div class="section">
+            <button class="accordion" onclick="togglePanel('runde4')">📝 Runde 4 (15 min) - Tipps gegen Stress</button>
+            <div class="panel" id="runde4">
+                <p>Ein Teilnehmer spielt eine gestresste Person (eine stressige Situation aus der Liste beliebig auswählen). Der andere gibt Tipps zur Stressbewältigung und hilft, die Situation zu lösen. Dann Rollen wechseln.</p>
+                <img src="image (3).png" alt="Tipps gegen Stress">
+                <h4>📌 Stressige Situationen für das Rollenspiel</h4>
+                <h4>1️⃣ Arbeit & Beruf</h4>
+                <ul>
+                    <li>Dein Chef gibt dir eine dringende Aufgabe kurz vor Feierabend.</li>
+                    <li>Du musst eine wichtige Präsentation halten, hast aber Angst vor dem Sprechen vor Publikum.</li>
+                    <li>Ein Kollege macht ständig Fehler, aber du musst die Arbeit ausbaden.</li>
+                    <li>Du hast eine Frist vergessen und musst jetzt alles in letzter Minute erledigen.</li>
+                    <li>Dein E-Mail-Postfach ist überfüllt, und du weißt nicht, wo du anfangen sollst.</li>
+                </ul>
+                <h4>2️⃣ Schule & Studium</h4>
+                <ul>
+                    <li>Du hast eine große Prüfung, bist aber schlecht vorbereitet.</li>
+                    <li>Eine Gruppenarbeit läuft nicht gut, weil niemand sich beteiligt.</li>
+                    <li>Du hast mehrere Hausarbeiten gleichzeitig abzugeben und weißt nicht, wie du alles schaffen sollst.</li>
+                    <li>Dein Lehrer oder Professor ist sehr streng und macht dir Druck.</li>
+                    <li>Du hast Angst, bei einer mündlichen Prüfung zu versagen.</li>
+                </ul>
+                <h4>3️⃣ Alltag & Familie</h4>
+                <ul>
+                    <li>Du hast dich mit einem Familienmitglied gestritten und fühlst dich gestresst.</li>
+                    <li>Du bist zu spät dran und kommst nicht rechtzeitig zu einem wichtigen Termin.</li>
+                    <li>Dein Tag ist komplett durchgeplant, aber dann passiert etwas Unerwartetes.</li>
+                    <li>Du musst mehrere Dinge gleichzeitig erledigen (kochen, aufräumen, E-Mails beantworten).</li>
+                    <li>Dein Partner oder deine Mitbewohner sind chaotisch, und du fühlst dich für alles verantwortlich.</li>
+                </ul>
+                <h4>4️⃣ Soziale Situationen</h4>
+                <ul>
+                    <li>Du bist auf einer Party oder in einem Meeting, aber du kennst niemanden.</li>
+                    <li>Ein Freund bittet dich um einen Gefallen, aber du hast eigentlich keine Zeit.</li>
+                    <li>Du musst jemandem schlechte Nachrichten überbringen.</li>
+                    <li>Du wirst von einer fremden Person kritisiert oder ungerecht behandelt.</li>
+                    <li>Du hast einen wichtigen Termin, aber der Verkehr oder die Bahn macht Probleme.</li>
+                </ul>
+                <h4>5️⃣ Technische & unerwartete Probleme</h4>
+                <ul>
+                    <li>Dein Laptop oder Handy gibt genau dann den Geist auf, wenn du es am dringendsten brauchst.</li>
+                    <li>Du hast ein wichtiges Dokument gelöscht und weißt nicht, wie du es wiederherstellen kannst.</li>
+                    <li>Dein Auto bleibt auf dem Weg zu einem wichtigen Termin stehen.</li>
+                    <li>Du verlierst deinen Schlüssel oder dein Portemonnaie und gerätst in Panik.</li>
+                    <li>Dein Internet fällt aus, während du eine Online-Präsentation hast.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
